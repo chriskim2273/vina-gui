@@ -2,17 +2,11 @@
 
 Tiny Tkinter GUI for `vina.exe` (AutoDock Vina).
 
-## Prebuilt executable (Linux)
+## Prebuilt executables
 
-`dist/vina-gui-linux` is a one-file build — no Python needed:
-
-```bash
-./dist/vina-gui-linux
-```
-
-(Built with PyInstaller from `vina_gui.py`. For Windows, run
-`pyinstaller --onefile --windowed --name vina-gui vina_gui.py`
-on a Windows machine to get `vina-gui.exe`.)
+- **Windows:** `dist/vina-gui.exe` — double-click it, no Python needed.
+  (Built on Windows with `pyinstaller --onefile --windowed --name vina-gui vina_gui.py`.)
+- **Linux:** `dist/vina-gui-linux` — run `./dist/vina-gui-linux`.
 
 ## Run (Windows)
 
